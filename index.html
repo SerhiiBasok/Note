@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+</html>
+
+<div class="card-book">
+  <img
+    class="book-cover"
+    src="./img/5cd7508f-73dd-405d-891b-2fa8fb3375eb.jpg"
+    alt="${title} ${contributor}"
+    id="${_id}"
+  />
+  <div class="shoping-list-img-description">
+    <h2 class="book-title">${title}</h2>
+    <h3 class="book-category">Hardcover nonfiction</h3>
+    <p class="book-description">${description}</p>
+    <p class="book-author">${author}</p>
+    <ul class="storage-shops">
+      <li class="list-shop">
+        <a href="${buy_links[0].url}" target="_blank" class="modal-shop-link">
+          <img class="list-book-shop" src="${amazonLogo}" alt="Shop Logo" />
+        </a>
+      </li>
+
+      <li class="list-shop">
+        <a href="${buy_links[1].url}" target="_blank" class="modal-shop-link">
+          <img class="list-book-shop" src="${appleBooksLogo}" alt="Shop Logo" />
+        </a>
+      </li>
+    </ul>
+    <button class="remove-book-btn" data-book-id="${book._id}">
+      <svg width="38" height="38" class="remove-icon">
+        <use href="/images/icons.svg#icon-dump"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+
+// src="${book_image}"

@@ -1,0 +1,93 @@
+.card-book {
+  width: 100%;
+  border: 2px solid #4f2ee866;
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+}
+.book-cover {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.shoping-list-img-description {
+}
+.book-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.book-category {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #b4afaf;
+}
+.book-description {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.book-author {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #b4afaf;
+  display: block;
+  position: absolute;
+  bottom: 8px;
+}
+.storage-shops {
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  overflow: hidden;
+  display: flex;
+  gap: 8px;
+}
+.modals-shops img {
+  filter: grayscale(100%);
+  mix-blend-mode: luminosity;
+  transition: transform 200ms, filter 200ms;
+}
+
+.storage-shop-img:hover,
+.storage-shop-img:focus {
+  mix-blend-mode: normal;
+  transform: scale(1.1);
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.35));
+}
+
+.storage-shop:hover,
+.storage-shop:focus {
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.35));
+}
+
+.list-shop {
+}
+.modal-shop-link {
+}
+.list-book-shop {
+}
+.remove-book-btn {
+}
+.remove-book-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  overflow: hidden;
+}

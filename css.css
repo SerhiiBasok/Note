@@ -1,0 +1,142 @@
+/* .shopping-side-block {
+  display: none;
+}
+
+.shopping-list-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1875;
+  letter-spacing: -0.04em;
+  color: #111;
+  margin-bottom: 40px;
+}
+
+.shopping-list-title-part {
+  color: #4f2ee8;
+}
+.empty-message {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.empty-message p {
+  width: 244px;
+  letter-spacing: -0.02em;
+  color: #0009;
+  margin: 120px auto auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.empty-message img {
+  width: 265px;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  border: 2px solid #4f2ee8;
+  border-radius: 8px;
+  margin: 10px 0;
+  max-width: 335px;
+  height: 170px;
+  left: 20px;
+  padding: 30px 24px;
+  gap: 48px;
+}
+
+.book-cover {
+  width: 100%;
+  height: 142px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.book-cover img {
+  width: 100px;
+  height: 100%;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.book-details {
+  text-align: left;
+  width: 100%;
+}
+
+.book-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  width: 114px;
+  height: 18px;
+}
+
+.book-description {
+  letter-spacing: -0.04em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.book-links {
+  gap: 16px;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .shopping-list-title {
+    font-size: 48px;
+  }
+
+  .empty-message p {
+    width: 349px;
+    margin-top: 140px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .empty-message img {
+    width: 349px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .shopping-side-block {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+  }
+
+  .empty-message {
+    width: 100%;
+    text-align: center;
+    margin-left: 178px;
+  }
+
+  .empty-message p {
+    width: 349px;
+    margin-top: 140px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .empty-message img {
+    width: 349px;
+  }
+} */
